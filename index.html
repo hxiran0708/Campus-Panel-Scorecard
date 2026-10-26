@@ -240,21 +240,21 @@ textarea:focus{border-color:var(--accent-bright)}
    by "Copy this scorecard".
    ========================================================================== */
 var FORM = {
-  action: "",            /* https://docs.google.com/forms/d/e/<id>/formResponse */
+  action: "https://docs.google.com/forms/d/e/1FAIpQLSfsIAzbIkPO6jEgY12Yd75z6GuqZzmovzpmVlH9Ci848IGWpQ/formResponse",
   f: {
-    name:      "",       /* entry.0000000 — Panel member            */
-    team:      "",       /* entry.0000000 — Team                    */
-    candidate: "",       /* entry.0000000 — Candidate               */
-    prep:      "",       /* entry.0000000 — Preparation (1-5)       */
-    ai:        "",       /* entry.0000000 — Use of AI (1-5)         */
-    style:     "",       /* entry.0000000 — Presentation style (1-5)*/
-    arroA:     "",       /* entry.0000000 — Aspirational            */
-    arroR:     "",       /* entry.0000000 — Responsible             */
-    arroS:     "",       /* entry.0000000 — Resilient               */
-    arroO:     "",       /* entry.0000000 — Open-minded             */
-    roles:     "",       /* entry.0000000 — Recommended roles       */
-    round2:    "",       /* entry.0000000 — Round 2                 */
-    comments:  ""        /* entry.0000000 — Comments                */
+    name:      "entry.934443489",    /* 1  Panel member             */
+    team:      "entry.2052608941",   /* 2  Team                     */
+    candidate: "entry.202347849",    /* 3  Candidate                */
+    prep:      "entry.1578610174",   /* 4  Preparation (1-5)        */
+    ai:        "entry.1996427210",   /* 5  Use of AI (1-5)          */
+    style:     "entry.107214264",    /* 6  Presentation style (1-5) */
+    arroA:     "entry.24610711",     /* 7  Aspirational             */
+    arroR:     "entry.603506951",    /* 8  Responsible              */
+    arroS:     "entry.1087331388",   /* 9  Resilient                */
+    arroO:     "entry.104579548",    /* 10 Open-minded              */
+    roles:     "entry.1119994845",   /* 11 Recommended roles        */
+    round2:    "entry.84783312",     /* 12 Round 2                  */
+    comments:  "entry.1526448069"    /* 13 Comments                 */
   }
 };
 function formReady(){ return !!(FORM.action && FORM.f.candidate); }
